@@ -7,5 +7,6 @@ public class mainMyDate {
         md.printDay();
         md.printMonth();
         md.printYear();
+        md.printYear();
     }
 }
