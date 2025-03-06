@@ -57,4 +57,8 @@ public class Book {
 //        }
         return this.namXuatBan == bookKhac.namXuatBan;
     }
+
+    public double giaSauKhiGiam(double x) {
+        return this.giaBan * ( 1 - x / 100 ); // VD: Giảm 10% thì 10 chia 100 = 0.1 ==> 1 - 0.1 = 0.9. Vậy giá nhân cho 0.9 là giảm được 10% rồi.
+    }
 }
