@@ -8,7 +8,7 @@ public class BookManager {
 
         Book b1 = new Book(tg1, 2006,10,"Đắt nhân tâm");
 
-        Book b2 = new Book(tg1, 2006,10,"Đắt nhân tâm");
+        Book b2 = new Book(tg1, 2076,10,"Đắt nhân tâm");
 
         System.out.println(n1);
 
@@ -19,5 +19,7 @@ public class BookManager {
         b1.inTenSach();
 
         System.out.println("So sach sach 1 va 3:" + b1.kiemTraCungNamXuatBan(b2));
+
+        System.out.println("Sach 1 giam 10%: " + b1.giaSauKhiGiam(10));
     }
 }
