@@ -4,4 +4,5 @@ public class Class {
     private String nameStudent;
     private String idStudent;
     private double poin;
+    private int namSinh;
 }
