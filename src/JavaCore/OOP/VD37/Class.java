@@ -6,4 +6,5 @@ public class Class {
     private double poin;
     private int namSinh;
     private int idClass;
+    private String maMon;
 }
