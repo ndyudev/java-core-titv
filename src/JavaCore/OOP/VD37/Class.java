@@ -8,4 +8,5 @@ public class Class {
     private int idClass;
     private String maMon;
     private String ngayBatDau;
+    private String ngatKetThuc;
 }
