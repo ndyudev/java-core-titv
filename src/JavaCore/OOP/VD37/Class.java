@@ -9,4 +9,5 @@ public class Class {
     private String maMon;
     private String ngayBatDau;
     private String ngatKetThuc;
+    private String nameGiangVien;
 }
