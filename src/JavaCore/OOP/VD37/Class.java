@@ -10,5 +10,6 @@ public class Class {
     private String ngayBatDau;
     private String ngatKetThuc;
     private String nameGiangVien;
+    private String tuoiGiangVien;
     private String maGiangVien;
 }
