@@ -11,4 +11,5 @@ public class Class {
     private String ngatKetThuc;
     private String diaChiGiaoVien;
     private String hoVaTenGiangVien;
+    private String tuoiGianGVien;
 }
