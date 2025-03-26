@@ -12,4 +12,5 @@ public class Class {
     private String diaChiGiaoVien;
     private String hoVaTenGiangVien;
     private String tuoiGianGVien;
+    private String namSinhGiangVien;
 }
