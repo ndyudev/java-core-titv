@@ -10,9 +10,5 @@ public class Class {
     private String ngayBatDau;
     private String ngatKetThuc;
     private String diaChiGiaoVien;
-    private String hoVaTenGiangVien;
-    private String tuoiGianGVien;
-    private String namSinhGiangVien;
-    private String maGiangVien;
-    private String sinhNhatGiangVien;
+    private String tenGianGVien;
 }
