@@ -13,4 +13,5 @@ public class Class {
     private String tenGianGVien;
     private String nhanVien;
     private String maNhanVien;
+    private String nhanVien2;
 }
