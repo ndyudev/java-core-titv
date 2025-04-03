@@ -6,4 +6,5 @@ public class Class {
     private double poin;
     private int namSinh;
     private double age;
+    private String gender;
 }
