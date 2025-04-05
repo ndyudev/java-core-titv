@@ -8,4 +8,5 @@ public class Class {
     private double age;
     private String gender;
     private String tuoi;
+    private String nhan;
 }
