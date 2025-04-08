@@ -4,4 +4,5 @@ public class Class {
     private String nameStudent;
     private String idStudent;
     private String ageStudent;
+    private String gradeStudent;
 }
