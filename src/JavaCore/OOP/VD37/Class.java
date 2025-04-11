@@ -7,4 +7,5 @@ public class Class {
     private String gradeStudent;
     private String classStudent;
     private String course;
+    private String courseName;
 }
