@@ -10,4 +10,5 @@ public class Class {
     private String courseName;
     private String courseCode;
     private String courseGrade;
+    private String courseGradeName;
 }
