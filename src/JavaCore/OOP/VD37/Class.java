@@ -5,4 +5,5 @@ public class Class {
     private String idStudent;
     private String ageStudent;
     private String sourseIdStudetn;
+    private String sourseIdId;
 }
