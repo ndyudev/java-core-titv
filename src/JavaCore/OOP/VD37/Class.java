@@ -6,4 +6,5 @@ public class Class {
     private String ageStudent;
     private String sourseIdStudetn;
     private String sourseIdId;
+    private String sourseIdName;
 }
