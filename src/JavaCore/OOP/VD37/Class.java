@@ -7,4 +7,5 @@ public class Class {
     private String sourseIdStudetn;
     private String sourseIdId;
     private String sourseIdName;
+    private String sourseIdAge;
 }
