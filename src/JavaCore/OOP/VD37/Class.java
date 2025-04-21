@@ -9,4 +9,5 @@ public class Class {
     private String sourseIdName;
     private String sourseIdAge;
     private String sourseIdSurname;
+    private String sourseIdGender;
 }
