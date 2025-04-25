@@ -5,4 +5,5 @@ public class Class {
     private String sourseIdAddress;
     private String sourseName;
     private String className;
+    private String sourseAddress;
 }
