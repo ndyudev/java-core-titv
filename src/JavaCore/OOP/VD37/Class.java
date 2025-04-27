@@ -6,4 +6,5 @@ public class Class {
     private String sourseName;
     private String className;
     private String sourseAddress;
+    private String classAddress;
 }
