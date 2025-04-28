@@ -7,4 +7,5 @@ public class Class {
     private String className;
     private String sourseAddress;
     private String classAddress;
+    private String sourseId;
 }
