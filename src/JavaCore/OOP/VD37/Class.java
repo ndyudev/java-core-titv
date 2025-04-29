@@ -8,4 +8,5 @@ public class Class {
     private String sourseAddress;
     private String classAddress;
     private String sourseId;
+    private String classId;
 }
