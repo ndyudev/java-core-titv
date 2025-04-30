@@ -9,4 +9,5 @@ public class Class {
     private String classAddress;
     private String sourseId;
     private String classId;
+    private String classType;
 }
