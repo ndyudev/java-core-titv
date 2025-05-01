@@ -10,4 +10,5 @@ public class Class {
     private String sourseId;
     private String classId;
     private String classType;
+    private String sourseType;
 }
