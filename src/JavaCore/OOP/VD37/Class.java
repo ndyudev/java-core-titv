@@ -8,4 +8,5 @@ public class Class {
     private String sourseType;
     private String sourseName;
     private String className;
+    private String classDescription;
 }
