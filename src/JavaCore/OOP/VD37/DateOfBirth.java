@@ -1,5 +1,7 @@
 package JavaCore.OOP.VD37;
 
+import java.util.Objects;
+
 public class DateOfBirth {
     private String day;
     private String month;
@@ -44,5 +46,12 @@ public class DateOfBirth {
                 ", month='" + month + '\'' +
                 ", year='" + year + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        DateOfBirth that = (DateOfBirth) o;
+        return Objects.equals(day, that.day) && Objects.equals(month, that.month) && Objects.equals(year, that.year);
     }
 }
