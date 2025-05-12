@@ -11,5 +11,6 @@ public class ComputerManage {
         Manufacturer Viet = new Manufacturer("Viet", Vietnam);
 
         System.out.println(Asus);
+        System.out.println(Viet);
     }
 }
