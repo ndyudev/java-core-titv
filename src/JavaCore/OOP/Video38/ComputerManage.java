@@ -10,7 +10,14 @@ public class ComputerManage {
         Manufacturer Asus = new Manufacturer("Asus", USA);
         Manufacturer Viet = new Manufacturer("Viet", Vietnam);
 
-        System.out.println(Asus);
-        System.out.println(Viet);
+        Date dateProduct1 = new Date("1","1","2024");
+        Date dateProduct2 = new Date("1", "6", "2021");
+        Date dateProduct3 = new Date("1", "6", "2022");
+
+        Computer ASUSVivobook = new Computer(dateProduct1, 65.5, Asus, "12 Tháng");
+        Computer LenovoLOQ = new Computer(dateProduct2, 80.5, Viet, "24 Tháng");
+
+        System.out.println(" ASUS Vivobook higher LenovoLOQ ?:" + ASUSVivobook.checkHigherPrice(LenovoLOQ));
+        System.out.println(" National Production Lenovo LOQ:" + LenovoLOQ.printNationalProduction());
     }
 }
