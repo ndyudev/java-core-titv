@@ -1,4 +1,4 @@
-package JavaCore.OOP.Phan1.Student;
+package JavaCore.OOP.Phan1.VD31.Student;
 
 public class main_Student {
     public static void main(String[] args) {
