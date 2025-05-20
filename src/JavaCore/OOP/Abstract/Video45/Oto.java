@@ -17,4 +17,7 @@ public class Oto extends PhuongTienDiChuyen{
     }
 
     @Override
+    public double layVanToc() {
+        return 100;
+    }
 }
