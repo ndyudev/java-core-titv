@@ -19,6 +19,6 @@ public abstract class PhuongTienDiChuyen {
         System.out.println("Dừng Lại");
     }
 
-    public abstract void layVanToc();
+    public abstract double layVanToc();
 
 }
