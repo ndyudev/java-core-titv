@@ -21,4 +21,9 @@ public class MayBay extends PhuongTienDiChuyen {
     public void haCanh() {
         System.out.println("Hạ cánh");
     }
+
+    @Override
+    public void batDau() {
+        super.batDau();
+    }
 }
