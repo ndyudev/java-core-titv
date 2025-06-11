@@ -1,10 +1,9 @@
 package JavaCore.Interface.Video46;
 
 public class MayTinhCasioFX500 implements MayTinhBoTuiInterface {
-
     @Override
-    public double Chia(double a, double b) {
-        return a / b;
+    public double Cong(double a, double b) {
+        return a + b;
     }
 
     @Override
@@ -13,12 +12,17 @@ public class MayTinhCasioFX500 implements MayTinhBoTuiInterface {
     }
 
     @Override
-    public double Tru(double a, double b) {
-        return a - b;
+    public double Chia(double a, double b) {
+        try {
+            return a / b;
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return a;
     }
 
     @Override
-    public double Cong(double a, double b) {
-        return a + b;
+    public double Tru(double a, double b) {
+        return a - b;
     }
 }
