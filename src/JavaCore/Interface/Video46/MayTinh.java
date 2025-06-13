@@ -6,6 +6,9 @@ public class MayTinh {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // Nhập số phần tử mảng
+        System.out.print("Nhập số phần tử của mảng: ");
+        int n = sc.nextInt();
 
         // Khởi tạo mảng và nhập dữ liệu
         double[] arr = new double[n];
@@ -13,11 +16,6 @@ public class MayTinh {
             System.out.printf("Nhập giá trị cho arr[%d]: ", i);
             arr[i] = sc.nextDouble();
         }
-
-        // Nhập số phần tử mảng
-        System.out.print("Nhập số phần tử của mảng: ");
-        int n = sc.nextInt();
-
 
         // Tính toán cộng đơn giản
         MayTinhVinaCal500MS mtvnc500ms = new MayTinhVinaCal500MS();
