@@ -6,6 +6,7 @@ public class MayTinh {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Hello Java | Interface");
+        System.out.println("Anna Kinh ");
         // Nhập số phần tử mảng
         System.out.print("Nhập số phần tử của mảng: ");
         int n = sc.nextInt();
