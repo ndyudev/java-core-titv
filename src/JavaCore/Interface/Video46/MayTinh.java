@@ -5,18 +5,9 @@ import java.util.Scanner;
 public class MayTinh {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Hello Java | Interface");
-        System.out.println("Anna Kinh ");
         // Nhập số phần tử mảng
         System.out.print("Nhập số phần tử của mảng: ");
         int n = sc.nextInt();
-
-        // Khởi tạo mảng và nhập dữ liệu
-        double[] arr = new double[n];
-        for (int i = 0; i < arr.length; i++) {
-            System.out.printf("Nhập giá trị cho arr[%d]: ", i);
-            arr[i] = sc.nextDouble();
-        }
 
         // Tính toán cộng đơn giản
         MayTinhVinaCal500MS mtvnc500ms = new MayTinhVinaCal500MS();
@@ -24,6 +15,13 @@ public class MayTinh {
 
         // Sắp xếp mảng
         SapXepChon sxc = new SapXepChon();
+
+        // Khởi tạo mảng và nhập dữ liệu
+        double[] arr = new double[n];
+        for (int i = 0; i < arr.length; i++) {
+            System.out.printf("Nhập giá trị cho arr[%d]: ", i);
+            arr[i] = sc.nextDouble();
+        }
 
         // Sắp xếp tăng
         sxc.sapXepTang(arr);
