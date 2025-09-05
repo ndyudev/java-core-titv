@@ -4,15 +4,16 @@ import java.util.Scanner;
 
 public class Equals {
     public static void main(String[] args) {
-        final String password = "NDYUDEV";
-        Scanner sc = new Scanner(System.in);
-        String psUser;
-        System.out.print("Enter password: ");
-        psUser = sc.nextLine();
-        if (psUser.equals(password)) {
-            System.out.println("Login successful!");
-        } else {
-            System.out.println("password doesn't match!");
-        }
+    String password = "ndyudev";
+
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter password:");
+    String enterPassword  = sc.nextLine();
+    if(enterPassword.equalsIgnoreCase(password)){
+        System.out.println("Password đúng");
+    } else {
+        System.out.println("Wrong password");
+    }
+    System.out.println("Length password:" + password.length());
     }
 }
