@@ -14,6 +14,15 @@ public class Equals {
     } else {
         System.out.println("Wrong password");
     }
+
     System.out.println("Length password:" + password.length());
+
+        // Hàm regionMatches => so sánh 1 đoạn
+
+        String user = "ndyudev";
+        String password_ndyudev = "ndyudev227";
+
+        boolean check = user.regionMatches(2, password_ndyudev, 0, 4);
+
     }
 }
