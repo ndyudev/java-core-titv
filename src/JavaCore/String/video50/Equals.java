@@ -22,7 +22,7 @@ public class Equals {
         String user = "ndyudev";
         String password_ndyudev = "ndyudev227";
 
-        boolean check = user.regionMatches(2, password_ndyudev, 0, 4);
+        boolean check = user.regionMatches(3, password_ndyudev, 0, 5);
 
     }
 }
