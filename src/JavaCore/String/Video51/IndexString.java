@@ -12,7 +12,7 @@ public class IndexString {
 
         // Tìm kiếm char
 
-
+        System.out.println("Vị trí:" + s1.indexOf(hello, 5)); // Nêu ra vị trí bắt đầu
 
     }
 }
